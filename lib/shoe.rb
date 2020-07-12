@@ -1,11 +1,11 @@
 class Shoe
   attr_reader :brand
 
-  BRANDS = [] 
+  BRANDS = [].uniq
 
   def initialize brand=(brand)
     @brand = brand
-    BRANDS << brand if uniq
+    BRANDS << brand 
   end
 
 end
