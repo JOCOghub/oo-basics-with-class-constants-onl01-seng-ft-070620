@@ -8,4 +8,4 @@ class Shoe
     BRANDS << brand 
   end
 
-end.uniq
+end
